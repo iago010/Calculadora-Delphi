@@ -1,0 +1,159 @@
+object Form6: TForm6
+  Left = 305
+  Top = 208
+  Width = 391
+  Height = 353
+  Caption = 'Calculador de M'#233'dia - M4CHINE'
+  Color = clHotLight
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 56
+    Top = 8
+    Width = 243
+    Height = 29
+    Caption = 'Calculador de M'#233'dia'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -24
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 24
+    Top = 56
+    Width = 95
+    Height = 13
+    Caption = 'M'#233'dia a ser atingida'
+  end
+  object Label3: TLabel
+    Left = 24
+    Top = 120
+    Width = 36
+    Height = 13
+    Caption = '1'#170' Nota'
+  end
+  object Label4: TLabel
+    Left = 24
+    Top = 168
+    Width = 36
+    Height = 13
+    Caption = '2'#170' Nota'
+  end
+  object Label5: TLabel
+    Left = 24
+    Top = 216
+    Width = 36
+    Height = 13
+    Caption = '3'#170' Nota'
+  end
+  object Label6: TLabel
+    Left = 24
+    Top = 264
+    Width = 36
+    Height = 13
+    Caption = '4'#170' Nota'
+  end
+  object Label8: TLabel
+    Left = 184
+    Top = 272
+    Width = 77
+    Height = 19
+    Caption = 'M4CHINE '
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -16
+    Font.Name = 'Arial'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label9: TLabel
+    Left = 24
+    Top = 96
+    Width = 102
+    Height = 13
+    Caption = '_________________'
+  end
+  object EdtMed: TEdit
+    Left = 24
+    Top = 72
+    Width = 97
+    Height = 21
+    TabOrder = 0
+  end
+  object EdtN1: TEdit
+    Left = 24
+    Top = 136
+    Width = 97
+    Height = 21
+    TabOrder = 1
+  end
+  object EdtN2: TEdit
+    Left = 24
+    Top = 184
+    Width = 97
+    Height = 21
+    TabOrder = 2
+  end
+  object EdtN3: TEdit
+    Left = 24
+    Top = 232
+    Width = 97
+    Height = 21
+    TabOrder = 3
+  end
+  object EdtN4: TEdit
+    Left = 24
+    Top = 280
+    Width = 97
+    Height = 21
+    TabOrder = 4
+  end
+  object BtnCalc: TButton
+    Left = 200
+    Top = 88
+    Width = 75
+    Height = 25
+    Caption = 'Calcular'
+    TabOrder = 5
+    OnClick = BtnCalcClick
+  end
+  object GroupBox1: TGroupBox
+    Left = 152
+    Top = 128
+    Width = 193
+    Height = 81
+    Caption = 'Resultado Final'
+    Color = clHotLight
+    ParentColor = False
+    TabOrder = 6
+    object Label7: TLabel
+      Left = 8
+      Top = 48
+      Width = 3
+      Height = 13
+    end
+    object Label10: TLabel
+      Left = 8
+      Top = 24
+      Width = 3
+      Height = 13
+    end
+  end
+  object Button1: TButton
+    Left = 272
+    Top = 272
+    Width = 75
+    Height = 25
+    Caption = 'Fechar'
+    TabOrder = 7
+    OnClick = Button1Click
+  end
+end
